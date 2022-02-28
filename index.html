@@ -22,13 +22,29 @@
 		</div>
 	</div>
 
+	<div class="row">
+		<div class="col">
+			<label for="combos" class="form-label">Combos</label>
+			<select class="form-select" id="combos">
+				<option value="1" selected>X-Saudável</option>
+				<option value="2">X-NãoTãoSaudável</option>
+				<option value="3">X-Colesterol</option>
+			</select>
+		</div>
+		<div class="col">
+			<label for="nome" class="form-label">Nome do Cliente</label>
+			<input type="text" class="form-control" id="nome">
+		</div>
+	</div>
+
+
 	<div class="mb-3">
 		<label for="total" class="form-label">Total a pagar:</label>
-		<input type="number" class="form-control" id="total" disabled>
+		<input type="number" class="form-control" id="total" disabled readonly>
 	</div>
 	<div class="mb-3">
 		<label for="desc" class="form-label">Descrição do Pedido:</label>
-		<textarea class="form-control" id="desc" rows="5"></textarea>
+		<textarea class="form-control" id="desc" rows="5" disabled readonly></textarea>
 	</div>
 </div>
 
